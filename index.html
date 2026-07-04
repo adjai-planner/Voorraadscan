@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VoorraadScan</title>
-  <link rel="stylesheet" href="stijl.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoorraadScan</title>
+    <link rel="stylesheet" href="stijl.css">
 </head>
 <body>
+
+<h1>📦 VoorraadScan</h1>
+
+<div class="kaart">
+    <h2>Nieuw product</h2>
+
+    <input type="file" id="foto" accept="image/*">
+
+    <input type="text" id="naam" placeholder="Productnaam">
+
+    <input type="date" id="tht">
+
+    <input type="number" id="aantal" value="1" min="1">
+
+    <button>Opslaan</button>
+</div>
+
+<h2>Mijn voorraad</h2>
+
+<div id="voorraad">
+    Nog geen producten toegevoegd.
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
 
 <h1>📦 VoorraadScan</h1>
 
